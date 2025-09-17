@@ -28,21 +28,25 @@ venv/
 ENV/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+.ipynb_checkpoints/
 
-# VSCode
+# Editors/IDE
 .vscode/
+.idea/
+
+# Logs & caches
+*.log
+.cache/
+.mypy_cache/
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
 
 # Data & models
 data/*.zip
 data/*.tar
 data/*.gz
 data/*.xz
-models/*.pkl
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Streamlit
-.streamlit/
+# Ignore all models by default, but keep the final model
