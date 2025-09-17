@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,F1,ROC_AUC
+LogReg,1.0,1.0,1.0,1.0,1.0
+DecisionTree,1.0,1.0,1.0,1.0,1.0
+RandomForest,1.0,1.0,1.0,1.0,1.0
+SVM,0.9836065573770492,0.9655172413793104,1.0,0.9824561403508771,1.0

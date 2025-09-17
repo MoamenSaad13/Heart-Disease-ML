@@ -1,0 +1,13 @@
+Ngrok Deployment (Bonus)
+========================
+
+1) Install requirements (includes pyngrok)
+   pip install -r requirements.txt
+
+2) Run the Streamlit app locally:
+   streamlit run ui/app.py
+
+3) In a separate terminal, expose the port (default Streamlit port is 8501):
+   ngrok http 8501
+
+4) Copy the public URL from ngrok and share it.
